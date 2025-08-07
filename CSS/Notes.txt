@@ -1,0 +1,139 @@
+CSS(Cascading stylesheet):
+ -CSS is an style language used for describing the presentation of a document written in a mark up language(HTML).
+ -CSS is used to add style to a webpage.
+
+ -There are 3 ways to add style or CSS to a webpage-
+ 1.Inline CSS
+ 2.External CSS
+ 3.Internal CSS
+
+ Inline CSS:-
+ -Adding style for an individual element with the help of style attribute.
+ 
+ syntax:
+ <p style="font-size:30px; font=weight:70;>
+
+ Internal CSS:-
+ -used to add style multiple or writting in general style with the help of style tag inside head tag.
+ -we need selector to target or select the element which we need to change type 
+
+ syntax:
+ <style>
+    .className{
+        font-size:20px;
+
+    }
+    #idName{
+        background-color:red;
+    }
+</style>
+
+External CSS:-
+-writing css in separate css file and then connecting it to the html document with the help of link tag
+-We used link tag inside the head tag to connect the external css.
+
+syntax:
+<link rel="stylesheet" href="./style.css">
+
+.app{
+    background-color:pink;
+    font-size: small;
+}
+
+SELECTORS IN CSS:
+
+-CSS selectors are used to select the html elements that we want tp change style.
+-There are 6 types of selectors in css:
+1.Universal selectors
+- It is used to select all the elements in html document.
+-It is denoted by *
+
+*{
+    font-size:80px;
+}
+
+2.Id selector
+- It select the html element based on the given id name.
+-Id name can be provided by using"id" attribute.
+-Id name should be unique in an html document.
+-To select the id name in css we use # which acts as id selectors.
+
+3.class selector:
+-It select the html element based on the given class name.
+-class name can be provided by using "class" attribute.
+-class name can be duplicate.
+-To select the class name in css we use . that acts as class selector.
+
+4.Element selector:
+-It is used to select the elements based on their tag name.
+-Element selectors selects all the element with the specific tag name in the entire html document.
+
+p{
+    background-color:red;
+}
+
+5.Descendent selector:
+-It is used to select a specific child element with in a parent element.
+
+6.Group selector:
+-It is used to select multiple elements in the html document.
+
+
+#Flex Box:
+-This property is used to structure the element in row wise or column wise by giving space allocation for individual elements within the flex area.
+-Flex property is used in parent container to structure child element either in row or column.
+
+PROPERTIES OF FLEX:
+Text-direction-it specify from which direction the elemnt should be aligned.
+ flex-direction: row; 
+ flex-direction: row-reverse; 
+flex-direction: column; 
+flex-direction: column-reverse;
+
+-This is used to align the element horizontally in the flex area.
+
+Align items-This is used to align the item vertically in the flex area.
+
+Flex-wrap-It set wheather flex items are forced into one line or can wrap into multiple lines.
+flex-wrap:wrap;
+
+gap-It is used to provide space between child element inside a parent container.
+gap:20px;
+
+GRID LAYOUT-
+Grid layout is a two dimensional layout system for the web.
+Grid is a collection of horizontal and vertical lines creating a pattern against which we can line up oue design elements.
+They help us to create designs where element dont jumps around or change width as we move from page to page.
+
+PROPERTIES:
+display: grid;
+    /* grid-template-columns: 200px,250px,200px; */
+    /* grid-template-columns: repeat(4,1fr); */
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(3,1fr);
+    grid-gap:20px;
+
+ CSS UNITS-
+
+ -px(pixel)
+ It is field for each and every screen.
+ 1px=1/96 inch
+
+ -%(percentage)   
+ percentage is fully depends upon there parent elements.
+
+ -vh(viewport height)
+ It depends the size as per screen size.(viewport)
+
+ -vw(viewport width)
+  It depends the size as per screen size.(viewport)
+
+ -vmax
+ It compares between vh and vw, which value is being greater it depend upon that value.
+
+ -em  and rem
+ These are relative length units used for sizing element particularly for typography.
+ em is relative to font sizeof the parent element.
+ rem unitsrelated to font size of root element or default function.
+
+ 1rem=16px

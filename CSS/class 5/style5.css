@@ -1,0 +1,80 @@
+.rotate{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    /* transform: rotateX(30deg); */
+     /* transform: rotateY(30deg); */
+      /* transform: rotateZ(30deg); */
+       /* transform: rotate(30deg); default value z axis */
+}
+.scale{
+     height: 200px;
+    width: 200px;
+    background-color:aqua;
+    margin: 50px;
+    /* transform: scaleX(1.5); */
+     /* transform: scaleY(1.5); */
+      /* transform: scale(1.5,2); */
+
+
+
+}
+.translate{
+     height: 200px;
+    width: 200px;
+    background-color:blue;
+    margin: 50px;
+    /* transform:translateX(30px) ; */
+     /* transform:translateX(-30px) ; */
+      /* transform:translateY(30px) ; */
+       /* transform:translateY(-30px) ; */
+       /* transform:translate(50px,30px) ; */
+
+}
+.skew{
+     height: 200px;
+    width: 200px;
+    background-color:blueviolet;
+    margin: 50px;
+    /* transform: skewX(-30deg); */
+    /* transform: skewY(50deg); */
+    /* transform: skew(50px,50deg); */
+    border-radius: 20px;
+    
+}
+.box{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(131, 9, 9);
+    margin: 100px;
+    transition-property: transform;transition-duration: 2s;
+    /* transition-timing-function: ease; */
+     /* transition-timing-function: ease-in; */
+      /* transition-timing-function: ease-out; */
+       /* transition-timing-function: ease-in-out;
+        */
+         /* transition:transform 2s ease-in-out; */
+
+}
+.box:hover{
+    transform: scale(1.5);
+}
+#btn{
+    background-color: green;
+    padding: 15px 30px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+#btn:hover{
+    background-color: greenyellow;
+}
+#btn:active{
+    background-color: darkgreen;
+    transform: scale(0.9);
+}
+

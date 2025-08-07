@@ -1,0 +1,141 @@
+nav{
+    display:flex;
+    height: 80px;
+    padding: 0px 150px;
+    justify-content: space-between;
+    align-items: center;
+    background-color:navy;
+    
+    
+     
+
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    
+    
+    
+     
+    
+}
+nav ul select
+{
+    border: none;
+    font-size: 18px;
+    outline: none;
+    color:white;
+    background-color:navy;
+    
+}
+#button1{
+    background-color: yellow;
+    border-radius: 5px;
+    padding: 10px 25px;
+
+}
+#button2{
+    background-color:lightskyblue;
+    padding: 10px 35px;
+    border-radius: 5px;
+    color: white;
+}
+.parent{
+    height:70vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 150px;
+    background-color: navy;
+    color: white;
+    
+}
+.child1{
+    font-size: 28px;
+}
+.child1 p{
+    font-size: 20px;
+}
+.child2{
+    height:250px;
+    width: 452px;
+    background-color: lightblue;
+}
+.parent1{
+    
+    display: flex;
+    padding: 20px 60px;
+    background-color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.child3{
+    font-size: 25px;
+    
+}
+.child3 p{
+    font-size: 20px;
+}
+.child4{
+    height: 250px;
+    width: 452px;
+    background-color: lightblue;
+}
+#button{
+    background-color:lightskyblue;
+    color: white;
+}
+.parent2{
+     display: flex;
+    padding: 20px 60px;
+    background-color: white;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.child5{
+     height: 250px;
+    width: 452px;
+    background-color: lightblue
+
+}
+.child6{
+    font-size: 28px;
+}
+.child6 p{
+    font-size: 20px;
+}
+#button3{
+    background-color: lightblue;
+    color: white;
+}
+.parent3{
+     display: flex;
+    padding: 20px 60px;
+    background-color: navy;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    
+
+
+}
+.child7{
+    font-size: 28px;
+}
+.child7 p{
+    font-size: 20px;
+}
+.child8{
+     height: 250px;
+    width: 452px;
+    background-color: lightblue
+
+}
+#button4{
+    background-color: lightblue;
+    color: white;
+}

@@ -1,0 +1,38 @@
+
+.child{
+    height: 150px;
+    width: 150px;
+    background-color: brown;
+}
+.parent{
+    background-color: aqua;
+    height: 80vh;
+    display: grid;
+    /* grid-template-columns: 200px,250px,200px; */
+    /* grid-template-columns: repeat(4,1fr); */
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(3,1fr);
+
+}
+/* #box{
+    
+} */
+.box{
+    /* height:500px ;
+    width: 600px; */
+    background-color: blueviolet;
+    height: 30vh;
+    /* width: 80vw; */
+    /* width: 40vmax; */
+    font-size: 1rem;
+}
+.container{
+    /* height: 500px; */
+    /* height: 50%; */
+    /* width: 50%; */
+    background-color: blanchedalmond;
+    font-size: 10px;
+}
+.container h1{
+    font-size: 2em;
+}
