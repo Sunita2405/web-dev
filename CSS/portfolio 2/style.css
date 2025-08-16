@@ -1,0 +1,70 @@
+nav{
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    margin: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav i{
+    display: none;
+}
+.blog{
+    margin: 100px;
+}
+.blog h1{
+    padding-bottom: 20px;
+}
+.ui{
+    border-bottom: 1px solid gray;
+}
+.ui p2{
+    opacity: 40%;
+}
+nav a:hover{
+    color: orange;
+}
+.footer{
+    width: 300px;
+    margin: 5px auto;
+    display: flex;
+    gap: 30px;
+    font-size: 25px;
+}
+ #head{
+    font-size: 14px;
+     width: 300px;
+    margin: 40px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media  screen and (max-width:450px) {
+    nav a{
+        display: none;
+
+    }
+    .blog{
+        padding: 0px;
+        margin: 10px;
+        
+    }
+    .footer{
+        padding: 95px 0px 0px 77px;
+    }
+    #head{
+         padding: 0px 0px 0px 79px;
+    }
+
+    
+}

@@ -1,0 +1,25 @@
+JAVASCRIPT-
+-Javascript is a programming language.
+-Netspace communication hired brended  developed scrpting languagefor their browser 
+-Eich created js in 10 days.
+-The language was 1st called mocha then change to livescript then to js not because its related to java but as marketting decision to capitalised on java prpolarlity.
+-Js is used for building logic of a webpage.
+-Js is a high level prog language used as both client site as well as server site.
+-Currently we are using js version 6 i.e eh 6() which is also called as vanilla js.
+-
+
+What is scripting lang?
+-A scripting lang is a type of prog lang use dto automate task and execute line by line
+e.g js php phython
+
+Variable keyword in js
+-Variable keywordare used to declare a variavle ans to iniliaze value to a variab;e 
+-there are 3 types
+1.var
+-If a Variable is declare using var keyword the we can redeclare and re initialised the same Variable.
+
+2.Let 
+-If a Variable is declare using var keyword the we can redeclare and re initialised the same Variable.
+
+3.const(constant)
+-If a Variableis declareusing const then neither we can redeclarenor re iniliazethe same Variable.

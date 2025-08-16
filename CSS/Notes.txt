@@ -78,6 +78,70 @@ p{
 6.Group selector:
 -It is used to select multiple elements in the html document.
 
+# Pseudo classes:-
+-These are used to add styles to selectors but only when selectors meets certain condition.
+-Pseudo class are written using colon(:)
+e.g:- selector:active/hover
+    
+# Pseudo elements:-
+-It is a keyword added to a selector that lets us style a specific part of the selected element.
+-Double colon(::) is used to write Pseudo elements.
+e.g:- ::after, ::before, ::first-line, ::first-letter
+
+# Box-Model in CSS:-
+-Using box model we can specify how an element should be displayed on the web page by giving properties - height & width, padding, border, and margin.
+-The innermost layer of the box model is content itself which includes height and width. Following by padding, border and margin respectively.
+
+## Padding:- It is the inner space between the content and border.
+-Padding values will be applied on the four sides of the content when single value is given for padding.
+-Padding Syntax:- 
+1. padding: 10px (four side equal)
+2. padding: top-bottom left-right
+3. padding: top left-right bottom
+4. padding: top right bottom left
+
+## Border:- Border property is used to define the boundary around an element. 
+-Border for a content can be specify using three values.
+    -border-size 
+    -border-style : solid/dashed/dotted/double
+    -border-color
+e.g:- border: 10px solid green;
+-To curve the edges of border we use border-radius property.
+e.g: border-radius: 5px;
+
+## Margin:- It defines the space between one or more elements.
+-It is the outer white space of an element.
+-It follows the same syntax as padding.
+1. margin: 10px (four side equal)
+2. margin: top-bottom left-right
+3. margin: top left-right bottom
+4. margin: top right bottom left
+
+# Box shadow and Text shadow:-
+-Box shadow is used to give a shadow effect for a selected element. Whereas text shadow used for text.
+Syntax:-
+    box-shadow: x-offset y-offset blur color;
+    text-shadow: x-offset y-offset blud color;
+e.g:-
+    .box {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.text {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+# Display Properties:- 
+-It specifies how an element must be aligned or stuctured in a web-page.
+-There are 4-types of display properties.
+1. Block:- The elements that are block, will be displayed one by one & occupies 100% width of the web-page.
+-We can change the height and width of a block element.
+
+2. Inline:- The elements will be displayed in the same row where height and width properties will not work.
+
+3. Inline-block:- Displays all the element in the same row and also can change height and width. 
+
+4. None:- The element will not display in the web page.
+
 
 #Flex Box:
 -This property is used to structure the element in row wise or column wise by giving space allocation for individual elements within the flex area.
@@ -137,3 +201,83 @@ display: grid;
  rem unitsrelated to font size of root element or default function.
 
  1rem=16px
+
+ TRANSFORM PROPERTIES-
+ These are used to transform or change an element from one form to another form or to move from one position to another position.
+
+ Rotate-It is used to Rotate an object in clockwise or anticlock wise direction.
+ -To rotate an element we used deg as unit.
+
+ rotateX(deg)-It rotate an element in x axis
+
+Skew-It distorts point of an element by a certain element in horizontalor vertical direction.
+-For horizontal skewX anf for vertical skewY.
+
+scale-
+-It allows us to resize an elementcompares to its original size.
+-scale <1 will decrease the size and scale>1 will increase the size 
+
+scaleX-it will change the size in x axis or horizontal.
+scaleY-it will change the size in Y axis or vertical.
+scale-it will change the size in both direction.
+
+
+-It allows us to chnage the position of an element from its originalposition to another positionalong x axis or y axis.
+
+translate-it translatethe elementover x axis from left to right or vice versa.
+translateY-it translatethe elementover y axis from top to bottom.
+transform(value1, value2)-It translate the elementin both axis i.e x and y axis.
+
+TRANSITION-
+-to change a state
+-transition enable us to refine the transition between two state of an element smoothly
+
+transition property-
+-property for which u want to add transition.
+e.g
+background-color
+fontsize
+all
+transform
+
+transition duration-
+time to change from one state to another state.
+e.g 1s ,2s
+
+transition-timing-function-
+(to control the speed)
+ease 
+ease-in
+ease-out
+ease-in-out
+linear
+steps
+
+transition-delay
+delay to start the transition.
+or in short hand we can write-
+transition:propertyname duration timing-function delay
+
+POSITION PROPERTY-
+-It is used as a special method in css to specify the exact structure and position of each element.
+-It uses various method like static,relative,absolute,fixed,and sticky to specify the exact position of each element depending on their behaviour.
+-In css we have some property which are used to change the position of an element.
+-The properties are-
+top,right,bottom,left.
+-However these properties will not work without mentioning the position property and its method.
+
+1.Static-
+- HTML element are position static by default.
+-These elements are not affected by top right left bottom properties.
+
+2.Relative-
+-The element is positioned relative to its originalposition getting the top left right bottom value will move that element from its originalposition and other elements will not be affected by absolute.
+
+3.Absolute-
+-It positioned an element relative to its parent relative container if there is not parent container with position relative then it relative to the body and these elements an overlap other elements.
+4.Fixed-
+-The element will be fixed permanently at specific position relative to body.
+
+5.Sticky-
+-The element will behave as normal element and gets fixed once its reaches certain point of the webpage,
+-A sticky element toggles between relativeand fixed depending on the position value.

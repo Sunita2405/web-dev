@@ -1,0 +1,242 @@
+.heading{
+   display: flex;
+    /* height:50vh; */
+    justify-content: flex-end;
+    padding-right: 90px;
+    font-size: 22px;
+    
+}
+.heading ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+
+  
+   
+}
+.heading  i{
+    display: none;
+}
+.heading a{
+    text-decoration: none;
+    color: black;
+}
+.parent{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    margin: 20px;
+
+}
+.child h1{
+    font-size: 50px;
+}
+.child p{
+    font-size: 19px;
+}
+.photo img{
+    border-radius: 50%;
+    box-shadow:-8px 8px 10px gray ;
+}
+#btn{
+  background-color: rgb(223, 115, 133);  
+  padding: 15px;
+  border-radius:4px ;
+  
+}
+
+.post{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 0px 200px;
+    background-color: lightblue;
+   
+}
+
+.post a{
+    text-decoration: none;
+    color: #0af;
+}
+.pattern{
+    display: grid;
+   grid-template-columns: repeat(2,1fr);
+   place-items: center;
+   padding: 0px 135px;
+   background-color: lightblue;
+   padding-bottom: 30px;
+   
+    
+}
+.design{
+    background-color: whitesmoke;
+    padding: 0px 28px 0px 12px;
+}
+.pixel{
+    background-color: whitesmoke;
+     padding: 0px 28px 0px 12px;
+}
+.feature{
+    display: grid;
+    gap: 40px;
+    padding: 90px;
+    
+}
+.feature img{
+    border-radius: 4px;
+}
+.dashboards{
+    display: flex;
+    gap: 20px;
+    border-bottom: 2px solid rgb(238, 186, 90);
+    padding-bottom: 20px;
+}
+.portraits{
+    display: flex;
+    gap: 20px;
+     border-bottom: 2px solid orange;
+     padding-bottom: 20px;
+    
+}
+.malayalam{
+    display: flex;
+    gap: 20px;
+     border-bottom: 2px solid orange;
+     padding-bottom: 20px;
+}
+.text p{
+    font-size: 18px;
+}
+.text p1{
+    background-color: rgb(2, 2, 68);
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+    
+}
+.text p2{
+    opacity: 40%;
+    padding-left: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:450px) {
+    .heading ul{
+        display: none;
+    }
+    .heading  i{
+        display: flex;
+        font-size:28px;
+        align-items: end;
+    }
+    .parent{
+        display: grid;
+       padding: 38px 0px 0px 78px;
+       
+    }
+    .photo img{
+        height: 180px;
+        width: 180px;
+       
+    }
+    .child h1{
+        font-size: 30px;
+    }
+    .child p{
+        font-size: 14px;
+    }
+    #btn{
+        padding: 8px;
+    }
+    .post a{
+        display: none;
+    }
+    .post h3{
+        font-size: 17px;
+        
+    }
+    .pattern{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 20px;
+       }
+       .feature h3{
+        text-align: center;
+       }
+       .dashboards{
+        display: grid;
+        
+       }
+       .dashboards img{
+        width: 320px;
+        /* padding-top: 0px; */
+        place-items: center;
+        padding-right: 30px;
+        /* border-radius: 5px; */
+       }
+       .text p{
+        font-size: 16px;
+       }
+       .portraits{
+        display: none;
+       }
+       .malayalam{
+        display: none;
+       }
+    
+}
+
+
+
+
+
+
+
+
+
+

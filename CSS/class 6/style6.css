@@ -1,0 +1,56 @@
+/* h1{
+    color: blue;
+    opacity: 0.5;
+    color: rgba(54, 54, 176);
+} */
+
+.static,
+.relative,
+.absolute,
+.fixed,
+.sticky{
+    height:150px ;
+    width: 150px;
+}
+.static{
+    background-color:green ;
+    position: static;
+    top: 100x;
+    left: 20px;
+}
+.relative{
+    background-color: brown;
+    position: relative;
+    top: 10px;
+    left: 30px;
+
+}
+
+
+ .container{
+    background-color: blueviolet;
+    height: 300px;
+    width: 300px;
+    position: relative;
+ }
+   .absolute{
+    background-color: blue;
+    position: absolute;
+    top: 20px;
+    /* left: 10px; */
+    right: 50px;
+  } 
+
+  .fixed{ 
+    background-color: chocolate;
+    position: fixed;
+    bottom: 0px;
+    right: 50px;
+  }
+  .sticky{
+    background-color: chartreuse;
+    position: sticky;
+    left: 10px;
+    top: 100px;
+    z-index: -10;
+  }
