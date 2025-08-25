@@ -96,7 +96,7 @@ let mark=marks.map((mark)=>{
 })
 
 //!filter()
-let filterMarks=marks.filter((mark)=>{
+const filterMarks=marks.filter((mark)=>{
     return mark>=55
 }
 )

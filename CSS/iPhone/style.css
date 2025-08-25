@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+}
+header{
+    font-size: 20px;
+    height: 50px;
+    background-color: whitesmoke;
+
+}
+ h4{
+    padding-top: 15px;
+    padding-left: 150px;
+}
+nav{
+    height: 50px;
+   
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+    list-style: none;
+    
+}
+h5{
+    text-align: center;
+    padding-top: 20px;
+}
+h5 a{
+    color: blue;
+
+}
+h5 a:hover{
+    text-decoration: underline;
+
+}
+.iPhone{
+    background-color: whitesmoke;
+    padding: 50px;
+    text-align: center;
+    height: 75vh;
+}
+.iPhone h1{
+    font-size: 70px;
+}
+.iPhone h2{
+    font-size: 30px;
+    padding-top: 20px;
+
+}
+.iPhone p{
+    padding-top: 20px;
+    color: red;
+}
+#btn{
+  
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+#btn1{
+    padding: 15px;
+    border: 1px solid blue;
+    border-radius: 20px ;
+    color: blue;
+    cursor: pointer;
+}
+#btn1:hover{
+    background-color: blue;
+    color: white;
+
+}
+.MacBook{
+    height: 75vh;
+     padding: 50px;
+    text-align: center;
+    background-color:whitesmoke;
+    margin-top: 10px;
+}
+.MacBook h1{
+    font-size: 50px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+.MacBook h2{
+    padding-top: 5px;
+    font-size: 30px;
+}
+.MacBook p{
+    font-size: 20px;
+    padding-top: 20px;
+    color: brown;
+}
+.hero {
+    padding-top: 60px;
+    text-align: center;
+    margin-top: 10px;
+   
+    
+  
+}
+.hero h1{
+    background-color: navy;
+    width: 170px;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+.hero h2{
+     background-color: navy;
+    /* width: 100px; */
+    margin: 20px auto;
+    border-radius: 20px;
+    font-size: 20px;
+    display: inline-block;
+
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+    height: 75vh;
+    margin-top: 10px; 
+    gap: 10px;   
+}
+.watch{
+    text-align: center;
+    width: 700px;
+}
+.iPad{
+     text-align: center;
+    width: 700px;
+
+}
+.iPad p{
+    padding-top: 310px;
+    color: brown;
+}
+
+
+

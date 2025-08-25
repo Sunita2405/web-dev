@@ -197,40 +197,43 @@ display: grid;
 
  -em  and rem
  These are relative length units used for sizing element particularly for typography.
- em is relative to font sizeof the parent element.
- rem unitsrelated to font size of root element or default function.
+- em is relative to font sizeof the parent element.
+- rem units related to font size of root element or default function.
 
  1rem=16px
 
  TRANSFORM PROPERTIES-
  These are used to transform or change an element from one form to another form or to move from one position to another position.
 
- Rotate-It is used to Rotate an object in clockwise or anticlock wise direction.
+ Rotate:-
+ -It is used to Rotate an object in clockwise or anticlock wise direction.
  -To rotate an element we used deg as unit.
 
  rotateX(deg)-It rotate an element in x axis
+ rotateY(deg)-It rotate an element in y axis
 
-Skew-It distorts point of an element by a certain element in horizontalor vertical direction.
--For horizontal skewX anf for vertical skewY.
+Skew:-
+It distorts point of an element by a certain element in horizontal or vertical direction.
+-For horizontal skewX and for vertical skewY.
 
 scale-
--It allows us to resize an elementcompares to its original size.
+-It allows us to resize an element compares to its original size.
 -scale <1 will decrease the size and scale>1 will increase the size 
 
 scaleX-it will change the size in x axis or horizontal.
 scaleY-it will change the size in Y axis or vertical.
 scale-it will change the size in both direction.
 
+Translate:-
+-It allows us to change the position of an element from its original position to another position along x axis or y axis.
 
--It allows us to chnage the position of an element from its originalposition to another positionalong x axis or y axis.
-
-translate-it translatethe elementover x axis from left to right or vice versa.
-translateY-it translatethe elementover y axis from top to bottom.
-transform(value1, value2)-It translate the elementin both axis i.e x and y axis.
+translateX-it translate the element over x axis from left to right or vice versa.
+translateY-it translate the element over y axis from top to bottom.
+translate(value1, value2)-It translate the element in both axis i.e x and y axis.
 
 TRANSITION-
 -to change a state
--transition enable us to refine the transition between two state of an element smoothly
+-transition enable us to refine the transition between two state of an element smoothly.
 
 transition property-
 -property for which u want to add transition.
@@ -271,13 +274,15 @@ top,right,bottom,left.
 -These elements are not affected by top right left bottom properties.
 
 2.Relative-
--The element is positioned relative to its originalposition getting the top left right bottom value will move that element from its originalposition and other elements will not be affected by absolute.
+-The element is positioned relative to its original position 
+-getting the top left right bottom value will move that element from its original position and other elements will not be affected .
 
 3.Absolute-
 -It positioned an element relative to its parent relative container if there is not parent container with position relative then it relative to the body and these elements an overlap other elements.
+
 4.Fixed-
 -The element will be fixed permanently at specific position relative to body.
 
 5.Sticky-
 -The element will behave as normal element and gets fixed once its reaches certain point of the webpage,
--A sticky element toggles between relativeand fixed depending on the position value.
+-A sticky element toggles between relative and fixed depending on the position value.
